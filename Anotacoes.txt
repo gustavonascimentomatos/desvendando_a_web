@@ -1,1 +1,13 @@
 -- Anotações --
+
+Modulo 02 - Aprendendo lógica de programação - [Javascript]
+    Code Runner => Extensão para executar o terminal
+    console.log('Teste!')
+    var => Antigamente valido para valores mutáveis e imutáveis
+    const => Variável, constante que não terá seu valor alterado
+    let => Variável, que pode variar os valores armazenados
+    '=' => Sinal de atribuição
+    '==' => Sinal de comparação independente do tipo
+    '===' => Sinal de comparação de valor e tipo
+    '[]' => Define a utilização de Array
+    '.toFixed()' => Determina quantas casas decimais aparecerão na casa decimal
