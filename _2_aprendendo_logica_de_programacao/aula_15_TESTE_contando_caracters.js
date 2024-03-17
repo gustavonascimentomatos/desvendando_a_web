@@ -14,26 +14,23 @@ function contarCaracteres(valor){
         } else {
             retorno = `${retorno}-${separarEmArray[cont].length}`
         }
+        if(separarEmArray[cont] >= maiorSting) {
+            maiorSting = separarEmArray[cont]
+        }
     }
-
-    if(separarEmArray[cont] >= maiorSting) {
-        maiorSting = separarEmArray[cont]
-    }
-
+    
     return retorno;
 }
 
 process.stdin.on('data', function(data){
     if(data == 0) {
+        for (let cont = 0; cont < resultado.length; cont++){
+            console.log(resultado[cont])
+        }
+        
+        console.log(`The biggest word: ${maiorSting}`)
         process.stdin.pause();
     }
 
     resultado.push(contarCaracteres(data))
 }) 
-
-
-for (let cont = 0; cont < resultado.length; cont++){
-    console.log(resultado[cont])
-}
-
-console.log(`The biggest word: ${maiorSting}`)
