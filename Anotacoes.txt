@@ -11,3 +11,4 @@ Modulo 02 - Aprendendo lógica de programação - [Javascript]
     '===' => Sinal de comparação de valor e tipo
     '[]' => Define a utilização de Array
     '.toFixed()' => Determina quantas casas decimais aparecerão na casa decimal
+    ".map" => Utilizado para realizar a conversão de objeto para outro objeto
