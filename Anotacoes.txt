@@ -13,3 +13,6 @@ Modulo 02 - Aprendendo lógica de programação - [Javascript]
     '.toFixed()' => Determina quantas casas decimais aparecerão na casa decimal
     ".map" => Utilizado para realizar a conversão de objeto para outro objeto
     ".filter" => Tem que ser devolvido um 'true' ou 'false', Caso o .filter seja indefinido temos que utilizar '!!' para fazer com que a o que for indefinido passe a ser falso.
+    ".sort" => Altera direto o objeto que esta sendo ordenado
+    ".some" => Valida dentro de uma lista se pelo menos um dos elementos correponde a condição
+    ".every" => Valida dentro de uma lista se todos os elementos correspondem a condição
