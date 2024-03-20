@@ -1,4 +1,3 @@
-
 const lista = [
     {
         nome: 'José',
