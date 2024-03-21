@@ -16,3 +16,5 @@ Modulo 02 - Aprendendo lógica de programação - [Javascript]
     ".sort" => Altera direto o objeto que esta sendo ordenado
     ".some" => Valida dentro de uma lista se pelo menos um dos elementos correponde a condição
     ".every" => Valida dentro de uma lista se todos os elementos correspondem a condição
+    "Object.defineProperties" => Possível declarar várias propriedades
+    "Object.defineProperty" => Possível declarar apenas uma propriedade
