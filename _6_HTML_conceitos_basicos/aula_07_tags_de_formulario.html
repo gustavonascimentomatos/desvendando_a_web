@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de formulário</title>
+</head>
+<body>
+    <h1>Tags de formulário</h1>
+    <p>
+        &lt;form&gt;: Define um formulário para ser preenchido pelo usuário.
+        <br>&lt;input&gt;: Define um campo de entrada para o usuário inserir informações.
+        <br>&lt;select&gt;: Define uma lista suspensa para o usuário selecionar uma opção.
+        <br>&lt;option&gt;: Define uma opção em uma lista suspensa.
+        <br>&lt;textarea&gt;: Define uma área de texto para o usuário inserir informações.
+        <br>&lt;button&gt;: Define um botão para o usuário clicar
+    </p>
+
+    <form action="" method="post">
+        <input type="text" name="n_input" id="id_input" placeholder="Digite...">
+        <select name="n_select" id="id_select">
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+        </select>
+        <textarea name="n_textarea" id="id_textarea" cols="30" rows="10" placeholder="Digite seu texto..."></textarea>
+        <label for="id_checkbox">
+            Checkbox
+            <input type="checkbox" name="n_checkbox" id="id_checkbox">
+        </label>
+        <label for="id_radio">
+            Radio
+            <input type="radio" name="n_radio" id="id_radio">
+        </label>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
