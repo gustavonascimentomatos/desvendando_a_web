@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+main {
+    background-color: darkblue;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+div.class_div {
+    background-color: darkred;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
+
+div#id_div {
+    background-color: darkgreen;
+    color: white;
+    width: 100px;
+    height: 100px;
+}
