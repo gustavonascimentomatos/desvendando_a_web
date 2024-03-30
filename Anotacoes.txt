@@ -18,3 +18,5 @@ Modulo 02 - Aprendendo lógica de programação - [Javascript]
     ".every" => Valida dentro de uma lista se todos os elementos correspondem a condição
     "Object.defineProperties" => Possível declarar várias propriedades
     "Object.defineProperty" => Possível declarar apenas uma propriedade
+    "position: relative;" => Sendo um pai seu filho deve ser absoluto em relação a ele e seguira referente ao pai
+    "position: absolute;" => Sendo filho e o pai estando como relativo segue absoluto em relação ao pai

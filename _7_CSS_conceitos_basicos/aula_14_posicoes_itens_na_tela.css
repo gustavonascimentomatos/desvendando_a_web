@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+}
+
+div.abc {
+    position: relative;
+    margin: 0px auto;
+    background-color: red;
+    width: 50%;
+    height: 50px;
+}
+
+div.cba {
+    background-color: yellow;
+    width: 50%;
+    height: 50px;
+}
+
+div.xyz {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: green;
+    width: 10%;
+    height: 50px;
+    z-index: 10;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.klm {
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    background-color: pink;
+    width: 10%;
+    height: 50px;
+    z-index: 9;
+}
