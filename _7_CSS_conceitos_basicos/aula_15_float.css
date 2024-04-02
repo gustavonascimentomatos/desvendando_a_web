@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.menu_left {
+    width: 300px;
+    height: 100vh;
+    background-color: darkblue;
+
+    float: left;
+}
+
+div.menu_right {
+    width: 300px;
+    height: 100vh;
+    background-color: darkred;
+
+    float: right;
+    
+}
