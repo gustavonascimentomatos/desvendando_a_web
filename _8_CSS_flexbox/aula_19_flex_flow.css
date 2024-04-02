@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.row_no_wrap {
+    flex-flow: row nowrap;
+}
+
+div.row_wrap {
+    flex-flow: row wrap;
+}
+
+div.column_no_wrap {
+    flex-flow: column nowrap;
+}
+
+div.column_wrap {
+    flex-flow: column wrap;
+}
+
+div.container {
+    display: flex;
+    width: 600px;
+    margin: 2px auto;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+div.item {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    background-color: darkblue;
+}
