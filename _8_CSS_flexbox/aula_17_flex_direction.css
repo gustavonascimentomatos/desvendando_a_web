@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.row {
+    flex-direction: row;
+}
+
+div.row_reverse {
+    flex-direction: row-reverse;
+}
+
+div.column {
+    flex-direction: column;
+}
+
+div.column_reverse {
+    flex-direction: column-reverse;
+}
+
+div.container {
+    display: flex;
+    padding: 8px;
+    margin: auto;
+    width: 500px;
+}
+
+div.item {
+    flex: 1;
+    background-color: darkblue;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    border: 1px solid black;
+}
