@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+div.stretch {
+    align-content: stretch;
+}
+
+div.flex_start {
+    align-content: flex-start;
+}
+
+div.flex_end {
+    align-content: flex-end;
+}
+
+div.center {
+    align-content: center;
+}
+
+div.space_between {
+    align-content: space-between;
+}
+
+div.space_aroud {
+    align-content: space-around;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 500px;
+    margin: 8px auto;
+    border: 1px solid black;
+}
+
+div.item {
+    flex: 1;
+    background-color: darkblue;
+    border: 1px solid black;
+    color: white;
+    margin: 8px;
+    font-size: 24px;
+    text-align: center;
+}
