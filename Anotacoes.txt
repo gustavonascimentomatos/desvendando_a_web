@@ -20,3 +20,5 @@ Modulo 02 - Aprendendo lógica de programação - [Javascript]
     "Object.defineProperty" => Possível declarar apenas uma propriedade
     "position: relative;" => Sendo um pai seu filho deve ser absoluto em relação a ele e seguira referente ao pai
     "position: absolute;" => Sendo filho e o pai estando como relativo segue absoluto em relação ao pai
+    "align items" => Alinha os items quando é utilizado o wrap, alinhando os itens que foram quebrados em questão de largura
+    "align content" => Alinha os items quando é utilizado o wrap, alinhando os itens que foram quebrados em questão de altura
